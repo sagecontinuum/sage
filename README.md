@@ -8,3 +8,4 @@ Partners will deploy Sage testbeds in Australia, Japan, UK, and Taiwan, providin
 
 Sage will develop open source computer code and provide open hardware design documents.  The data from sensors will also be hosted in the cloud to facilitate easy data analysis.
 
+The Sage project draws a lot of software and hardware from the [Waggle AI@Edge](https://github.com/waggle-sensor/waggle) platform. 
