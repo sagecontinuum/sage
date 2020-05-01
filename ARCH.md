@@ -30,8 +30,8 @@ A set of secure servers that manage Sage Nodes.  Beehive collects CPU/GPU perfor
 A library of tested and benchmarked AI@Edge codes that can run on the Waggle software stack.  The ECR provides a verified and versioned repository of AI@Edge docker images that can be pushed by the Beehive to Sage Nodes and executed.
 
 
-### Sage Edge Scheduler (SES):  
-A single point of entry for requesting AI@Edge cyberinfrastructure resources.  Similar to how computer users see a batch schedule, the SES is the outward facing interface for submitting AI@Edge jobs, such as “evaluate overhead clouds”, “identify wildfire smoke”, or “count pedestrians”. (https://github.com/sagecontinuum/ses)
+### [Sage Edge Scheduler (SES)](https://github.com/sagecontinuum/ses):  
+A single point of entry for requesting AI@Edge cyberinfrastructure resources.  Similar to how computer users see a batch schedule, the SES is the outward facing interface for submitting AI@Edge jobs, such as “evaluate overhead clouds”, “identify wildfire smoke”, or “count pedestrians”. 
 
 
 ### [Virtual Waggle (VW)](https://github.com/sagecontinuum/vw): 
