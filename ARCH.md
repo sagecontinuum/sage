@@ -2,7 +2,7 @@
 
 Here..
 
-## [Terminology]()
+## Terminology
 
 ### [Waggle Node](https://github.com/waggle-sensor/waggle):  
 
