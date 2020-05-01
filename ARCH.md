@@ -4,9 +4,9 @@ Here..
 
 ## Terminology
 
-### Waggle Node:  
+### [Waggle Node](https://github.com/waggle-sensor/waggle):  
 
-This slang indicates that an AI@Edge computer is running the Waggle software stack.  It is like saying “It’s a Linux Box”.  That Linux box could be running a web server or a database, but is running the Linux software stack.  “A Waggle Node” runs the Waggle encrypted and reliable messaging layers, configuration system, recovery components, adheres to the Waggle security model, provides the AI@Edge runtime libraries, and provides a the resource management components to schedule and run Edge docker containers from the Edge Code Repository. (https://github.com/waggle-sensor/waggle)
+This slang indicates that an AI@Edge computer is running the Waggle software stack.  It is like saying “It’s a Linux Box”.  That Linux box could be running a web server or a database, but is running the Linux software stack.  “A Waggle Node” runs the Waggle encrypted and reliable messaging layers, configuration system, recovery components, adheres to the Waggle security model, provides the AI@Edge runtime libraries, and provides a the resource management components to schedule and run Edge docker containers from the Edge Code Repository. 
 
 ### Array of Things (AoT) Node:  
 A weatherized Waggle Node designed to be installed on a street pole in the city or mounted on exterior walls.  An AoT node usually includes a sensor pod that includes air quality sensors.  The device is also attractive for an urban setting. (https://arrayofthings.github.io/)
