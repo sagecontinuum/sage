@@ -33,10 +33,10 @@ A library of tested and benchmarked AI@Edge codes that can run on the Waggle sof
 #### [Sage Edge Scheduler (SES)](https://github.com/sagecontinuum/ses):  
 A single point of entry for requesting AI@Edge cyberinfrastructure resources.  Similar to how computer users see a batch schedule, the SES is the outward facing interface for submitting AI@Edge jobs, such as “evaluate overhead clouds”, “identify wildfire smoke”, or “count pedestrians”. 
 
-### Support Infrastructure:
- 
 #### [Cloud Training Software Stack (CTSS)](https://github.com/sagecontinuum/ctss): 
 CTSS will provide interfaces (CTSS Training Environment and CTSS API Client) and documentation with end-to-end examples for users to allow them to build and bundle the components necessary to test on a Virtual Waggle and then on a Sage Node. It can be run on the cloud or as a downloadable software.
+
+### Support Infrastructure:
 
 #### [Chameleon](https://www.chameleoncloud.org/): 
 A large-scale, deeply reconfigurable experimental platform built to support Computer Sciences systems research. Community projects range from systems research developing new operating systems, virtualization methods, performance variability studies, and power management research to projects in software defined networking, artificial intelligence, and resource management.
@@ -45,3 +45,8 @@ A large-scale, deeply reconfigurable experimental platform built to support Comp
 
 #### [Virtual Waggle (VW)](https://github.com/sagecontinuum/vw): 
 Virtual Waggle is a downloadable software-only programming environment for building and testing edge computing code for the Waggle framework. 
+
+###  [Bench-top Waggle Driver](https://github.com/sagecontinuum/bwd):
+The BWD provides a remotely controllable interface to a physical Waggle node. The BWD will control as many physical attributes of the Waggle node as possible, including the serial console.  Ideally, almost everything that can be done physically, while a node sits on a desk, can be done remotely via the BWD. 
+
+
