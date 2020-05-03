@@ -4,11 +4,8 @@
 
 ### Nodes:
 
-#### Sage Node:  
+#### [Sage Node](https://github.com/sagecontinuum/nodes):  
 Any Edge node part of the Sage project.  This includes new AoT nodes, Wild Sage nodes, and Sage Blades.
- 
-#### [Waggle Node](https://github.com/waggle-sensor/waggle):  
-This slang indicates that an AI@Edge computer is running the Waggle software stack.  It is similar to saying “It’s a Linux Box”.  The Linux box could be running a web server or a database, but is running the core Linux software stack.  “A Waggle Node” runs the Waggle encrypted and reliable messaging layers, configuration system, resilience components, adheres to the Waggle security model, provides the AI@Edge runtime libraries, and provides the resource management components to schedule and run Edge docker containers from the Edge Code Repository. 
  
 #### [Array of Things (AoT) Node](https://arrayofthings.github.io/):  
 A weatherized Waggle Node designed to be installed on a street pole in the city or mounted on exterior walls.  An AoT node usually includes a sensor pod that includes air quality sensors.  The device is also attractive for an urban setting. 
@@ -19,9 +16,12 @@ This identifies Waggle Nodes that are weatherized for remote, outdoor deployment
 #### Sage Blade: 
 This identifies Waggle Nodes that are standard, commercially available blade server or box intended for use in a machine room or climate controlled telecommunications hut.  For the Sage project, the first Sage Blades are Dell XR2 1U servers that have been hardened for increased environmental range. They include a powerful NVIDIA GPU for AI@Edge compute jobs.  As a Waggle Node, they run the complete Waggle software stack, and therefore can run Edge jobs, report data, and be remotely configured.
 
+#### [Waggle Node](https://github.com/waggle-sensor/waggle):  
+This slang indicates that an AI@Edge computer is running the Waggle software stack.  It is similar to saying “It’s a Linux Box”.  The Linux box could be running a web server or a database, but is running the core Linux software stack.  “A Waggle Node” runs the Waggle encrypted and reliable messaging layers, configuration system, resilience components, adheres to the Waggle security model, provides the AI@Edge runtime libraries, and provides the resource management components to schedule and run Edge docker containers from the Edge Code Repository. 
+
 ### Data and Code Repositories: 
 
-#### Sage Data Repository (SDR): 
+#### [Sage Data Repository (SDR)](https://github.com/sagecontinuum/sdr): 
 Sage data is made open for research wherever possible.  Some training data sets may require data-usage agreements to adhere to privacy guidelines or for operational security.  However all sensor data and AI@Edge inference results are intended to be open and immediately shared in near-real time via the SDR. The SDR aggregates all data collected by Sage Nodes and provides web-based tools for extracting (slicing and dicing) relevant data components or viewing the data on map tools.  (ex BDR)
  
 #### [Edge Code Repository (ECR)](https://github.com/sagecontinuum/ecr): 
