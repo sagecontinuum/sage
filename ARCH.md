@@ -1,8 +1,8 @@
 [Sage_CI_HL]: https://raw.githubusercontent.com/sagecontinuum/sage/master/resources/images/SAGE_CI.jpg "Sage CI Arch" 
-## Overview
+# Overview
 ![Figure 1: A high-level overview of the Sage Cyber-infrastructure][Sage_CI_HL]
 
-### Nodes:
+## Nodes:
 
 #### [Sage Node](https://github.com/sagecontinuum/nodes):  
 Any Edge node part of the Sage project.  This includes new AoT nodes, Wild Sage nodes, and Sage Blades.
@@ -19,7 +19,7 @@ This identifies Waggle Nodes that are standard, commercially available blade ser
 #### [Waggle Node](https://github.com/waggle-sensor/waggle):  
 This slang indicates that an AI@Edge computer is running the Waggle software stack.  It is similar to saying “It’s a Linux Box”.  The Linux box could be running a web server or a database, but is running the core Linux software stack.  “A Waggle Node” runs the Waggle encrypted and reliable messaging layers, configuration system, resilience components, adheres to the Waggle security model, provides the AI@Edge runtime libraries, and provides the resource management components to schedule and run Edge docker containers from the Edge Code Repository. 
 
-### Software Infrastructure:
+## Software Infrastructure:
 
 #### [Base Infrastructure Components (BIC)](https://github.com/sagecontinuum/bic):
 BIC in Sage CI provide shared essential services and tools, which include Storage & Storage API, Authorization Service, User Management and Authentication, Sage Continuous Integration, Public Streaming Service, and Sage Web Portal. The BIC are hosted and excuted on the Sage Public Cyber Resources.
@@ -34,7 +34,14 @@ All configuration changes, whether they be software updates or new edge computin
 #### [Sage Lambda Triggers (SLT)](https://github.com/sagecontinuum/slt):
 The SLT provides a framework for two kinds of triggers: From-Edge and To-Edge. A value or message from a Waggle edge node, delivered to Beehive, can be used to trigger a lambda function -- for example, if high wind velocity is detected, a function could be triggered to determine how to reconfigure sensors or launch a computation or send an alert. Similarly, an HPC calculation or cloud-based data analysis could trigger an API call to the SES and send a notification to a Waggle edge node -- for example to request scheduling of new edge computations or reposition mobile assets.
 
-### Data and Code Repositories: 
+#### [Waggle Edge Stack (WES)](https://github.com/sagecontinuum/wes):
+
+The WES includes the operating system image and Waggle services running on the Node Controller and Edge Processors as well as the ML run-time libraries and tools. It also manages cybersecurity, certificate management, and manages system resources, such as power, memory, and cores. It constantly updates its state with the cloud server to fetch and perform any task scheduled from SES.
+
+#### [Cloud Training Software Stack (CTSS)](https://github.com/sagecontinuum/ctss): 
+CTSS will provide interfaces (CTSS Training Environment and CTSS API Client) and documentation with end-to-end examples for users to allow them to build and bundle the components necessary to test on a Virtual Waggle and then on a Sage Node. It can be run on the cloud or as a downloadable software.
+
+## Data and Code Repositories: 
 
 #### [Sage Data Repository (SDR)](https://github.com/sagecontinuum/sdr): 
 Sage data is made open for research wherever possible.  Some training data sets may require data-usage agreements to adhere to privacy guidelines or for operational security.  However all sensor data and AI@Edge inference results are intended to be open and immediately shared in near-real time via the SDR. The SDR aggregates all data collected by Sage Nodes and provides web-based tools for extracting (slicing and dicing) relevant data components or viewing the data on map tools.  (ex BDR)
@@ -42,26 +49,17 @@ Sage data is made open for research wherever possible.  Some training data sets 
 #### [Edge Code Repository (ECR)](https://github.com/sagecontinuum/ecr): 
 A library of tested and benchmarked AI@Edge codes that can run on the Waggle software stack.  The ECR provides a verified and versioned repository of AI@Edge docker images that can be pushed by the Beehive to Sage Nodes and executed.
 
-
-### Sage Tools:
-
-#### [Sage Edge Scheduler (SES)](https://github.com/sagecontinuum/ses):  
-A single point of entry for requesting AI@Edge cyberinfrastructure resources.  Similar to how computer users see a batch schedule, the SES is the outward facing interface for submitting AI@Edge jobs, such as “evaluate overhead clouds”, “identify wildfire smoke”, or “count pedestrians”. 
-
-#### [Cloud Training Software Stack (CTSS)](https://github.com/sagecontinuum/ctss): 
-CTSS will provide interfaces (CTSS Training Environment and CTSS API Client) and documentation with end-to-end examples for users to allow them to build and bundle the components necessary to test on a Virtual Waggle and then on a Sage Node. It can be run on the cloud or as a downloadable software.
-
-### Support Infrastructure:
+## Support Infrastructure:
 
 #### [Chameleon](https://www.chameleoncloud.org/): 
 A large-scale, deeply reconfigurable experimental platform built to support Computer Sciences systems research. Community projects range from systems research developing new operating systems, virtualization methods, performance variability studies, and power management research to projects in software defined networking, artificial intelligence, and resource management.
 
-### Utilities:
+## Utilities:
 
 #### [Virtual Waggle (VW)](https://github.com/sagecontinuum/vw): 
 Virtual Waggle is a downloadable software-only programming environment for building and testing edge computing code for the Waggle framework. 
 
-###  [Bench-top Waggle Driver](https://github.com/sagecontinuum/bwd):
+####  [Bench-top Waggle Driver](https://github.com/sagecontinuum/bwd):
 The BWD provides a remotely controllable interface to a physical Waggle node. The BWD will control as many physical attributes of the Waggle node as possible, including the serial console.  Ideally, almost everything that can be done physically, while a node sits on a desk, can be done remotely via the BWD. 
 
 
