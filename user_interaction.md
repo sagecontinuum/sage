@@ -1,4 +1,7 @@
 # User Interaction with Sage
+[Sage_CI_Use]: https://raw.githubusercontent.com/sagecontinuum/sage/master/resources/images/SAGE_Use.jpg "Sage CI Use"
+
+![Figure 1: A high-level overview of user interation with Sage Cyber-infrastructure][Sage_CI_Use]
 
 ## Who are the users? 
 
