@@ -2,6 +2,10 @@
 # Overview
 ![Figure 1: A high-level overview of the Sage Cyber-infrastructure][Sage_CI_HL]
 
+The Sage project will design and build a new kind of national-scale reusable cyber-infrastructure to enable AI at the edge.
+The illustration above shows a high-level view of the Sage CI architecture and enumerates the various software services, 
+tools and infrastructure pieces. Below a quick summary of each of the components and their interrelationships is provided.
+
 ## Nodes:
 
 #### [Sage Node](https://github.com/sagecontinuum/nodes):  
