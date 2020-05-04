@@ -19,6 +19,21 @@ This identifies Waggle Nodes that are standard, commercially available blade ser
 #### [Waggle Node](https://github.com/waggle-sensor/waggle):  
 This slang indicates that an AI@Edge computer is running the Waggle software stack.  It is similar to saying “It’s a Linux Box”.  The Linux box could be running a web server or a database, but is running the core Linux software stack.  “A Waggle Node” runs the Waggle encrypted and reliable messaging layers, configuration system, resilience components, adheres to the Waggle security model, provides the AI@Edge runtime libraries, and provides the resource management components to schedule and run Edge docker containers from the Edge Code Repository. 
 
+### Software Infrastructure:
+
+#### [Base Infrastructure Components (BIC)](https://github.com/sagecontinuum/bic):
+BIC in Sage CI provide shared essential services and tools, which include Storage & Storage API, Authorization Service, User Management and Authentication, Sage Continuous Integration, Public Streaming Service, and Sage Web Portal. The BIC are hosted and excuted on the Sage Public Cyber Resources.
+
+#### [Waggle Edge Stack (WES)](https://github.com/sagecontinuum/wes):
+
+The WES includes the operating system image and Waggle services running on the NC and EP as well as the ML run-time libraries and tools. It also manages cybersecurity, certificate management, and manages system resources, such as power, memory, and cores. It constantly updates its state with the cloud server to fetch and perform any task scheduled from SES.
+
+#### [Sage Edge Scheduler (SES)](https://github.com/sagecontinuum/ses):
+All configuration changes, whether they be software updates or new edge computing algorithms are handled by the SES. Users who have edge code already running and deployed on Waggle nodes can use their authentication token to push configuration changes to nodes via the SES. Users can also submit “jobs” that can be scheduled and run on nodes at a later time. The SES makes all configuration and system update decisions, and queues up changes that can be pushed out to nodes when they contact Beehive.
+
+#### [Sage Lambda Triggers (SLT)](https://github.com/sagecontinuum/slt):
+The SLT provides a framework for two kinds of triggers: From-Edge and To-Edge. A value or message from a Waggle edge node, delivered to Beehive, can be used to trigger a lambda function -- for example, if high wind velocity is detected, a function could be triggered to determine how to reconfigure sensors or launch a computation or send an alert. Similarly, an HPC calculation or cloud-based data analysis could trigger an API call to the SES and send a notification to a Waggle edge node -- for example to request scheduling of new edge computations or reposition mobile assets.
+
 ### Data and Code Repositories: 
 
 #### [Sage Data Repository (SDR)](https://github.com/sagecontinuum/sdr): 
