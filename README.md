@@ -20,6 +20,6 @@ The Sage project draws a lot of software and hardware from the [Waggle AI@Edge](
 ![Figure 1: A high-level overview of the Sage Cyber-infrastructure][Sage_CI_HL]
 
 
-## User Interaction with Sage
+## [User Interaction with Sage](https://github.com/sagecontinuum/sage/blob/master/user_interaction.md)
 ![Figure 2: A high-level overview of user interation with Sage Cyber-infrastructure][Sage_CI_Use]
 
