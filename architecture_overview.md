@@ -21,6 +21,10 @@ This slang indicates that an AI@Edge computer is running the Waggle software sta
 
 ## Software Infrastructure:
 
+#### [Public Cyber Resources](https://github.com/sagecontinuum/bic): 
+
+The Sage Public Cyber Resources are hosted at UCSD, and provide the infrastructure for the [Base Infrastructure Components (BIC)](https://github.com/sagecontinuum/bic) and also the various associated software services and tools listed below. It hence has a pivotal role in hosting Sage resources and extending Sage access and data to end-users. 
+
 #### [Base Infrastructure Components (BIC)](https://github.com/sagecontinuum/bic):
 BIC in Sage CI provide shared essential services and tools, which include Storage & Storage API, Authorization Service, User Management and Authentication, Sage Continuous Integration, Public Streaming Service, and Sage Web Portal. The BIC are hosted and excuted on the Sage Public Cyber Resources.
 
@@ -62,3 +66,8 @@ The BWD provides a remotely controllable interface to a physical Waggle node. Th
 #### [Chameleon](https://www.chameleoncloud.org/): 
 A large-scale, deeply reconfigurable experimental platform built to support Computer Sciences systems research. Community projects range from systems research developing new operating systems, virtualization methods, performance variability studies, and power management research to projects in software defined networking, artificial intelligence, and resource management.
 
+#### [Beehive](https://github.com/waggle-sensor/beehive-server): 
+
+Beehive is a cloud endpoint that offers several services for Waggle nodes and derivatives (AoT, Sage etc.) 
+including authentication, management, configuration, data aggregation and dissemination. Beehive is hosted 
+at Argonne National Laboratory.
