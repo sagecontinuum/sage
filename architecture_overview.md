@@ -10,10 +10,10 @@ Any Edge node part of the Sage project.  This includes new AoT nodes, Wild Sage 
 #### [Array of Things (AoT) Node](https://arrayofthings.github.io/):  
 A weatherized Waggle Node designed to be installed on a street pole in the city or mounted on exterior walls.  An AoT node usually includes a sensor pod that includes air quality sensors.  The device is also attractive for an urban setting. 
  
-#### Wild Sage Node:  
+#### [Wild Sage Node](https://github.com/sagecontinuum/nodes):  
 This identifies Waggle Nodes that are weatherized for remote, outdoor deployment as part of the Sage project.  These nodes are similar to AoT nodes, but since urban aesthetics are not needed, and different cameras and sensors might be used, the Wild Sage Node may look strange.  Wild Sage Nodes look like proper bits of science experiments mounted outside, while AoT nodes look like they deserve an architectural award. 
  
-#### Sage Blade: 
+#### [Sage Blade](https://github.com/sagecontinuum/nodes): 
 This identifies Waggle Nodes that are standard, commercially available blade server or box intended for use in a machine room or climate controlled telecommunications hut.  For the Sage project, the first Sage Blades are Dell XR2 1U servers that have been hardened for increased environmental range. They include a powerful NVIDIA GPU for AI@Edge compute jobs.  As a Waggle Node, they run the complete Waggle software stack, and therefore can run Edge jobs, report data, and be remotely configured.
 
 #### [Waggle Node](https://github.com/waggle-sensor/waggle):  
