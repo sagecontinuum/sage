@@ -52,7 +52,7 @@ CTSS will provide interfaces (CTSS Training Environment and CTSS API Client) and
 ## Data and Code Repositories: 
 
 #### [Sage Data Repository (SDR)](https://github.com/sagecontinuum/sdr): 
-Sage data is made open for research wherever possible.  Some training data sets may require data-usage agreements to adhere to privacy guidelines or for operational security.  However all sensor data and AI@Edge inference results are intended to be open and immediately shared in near-real time via the SDR. The SDR aggregates all data collected by Sage Nodes and provides web-based tools for extracting (slicing and dicing) relevant data components or viewing the data on map tools.  (ex BDR)
+Sage data is made open for research wherever possible.  Some training data sets may require data-usage agreements to adhere to privacy guidelines or for operational security.  However all sensor data and AI@Edge inference results are intended to be open and immediately shared in near-real time via the SDR. The SDR aggregates all data collected by Sage Nodes and provides web-based tools for extracting (slicing and dicing) relevant data components or viewing the data on map tools (previously known as BDR).
  
 #### [Edge Code Repository (ECR)](https://github.com/sagecontinuum/ecr): 
 A library of tested and benchmarked AI@Edge codes that can run on the Waggle software stack.  The ECR provides a verified and versioned repository of AI@Edge docker images that can be pushed by the Beehive to Sage Nodes and executed.
