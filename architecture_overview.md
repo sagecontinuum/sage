@@ -25,10 +25,6 @@ This slang indicates that an AI@Edge computer is running the Waggle software sta
 
 ## Software Infrastructure:
 
-#### [Public Cyber Resources](https://github.com/sagecontinuum/bic): 
-
-The Sage Public Cyber Resources are hosted at UCSD, and provide the infrastructure for the [Base Infrastructure Components (BIC)](https://github.com/sagecontinuum/bic) and also the various associated software services and tools listed below. It hence has a pivotal role in hosting Sage resources and extending Sage access and data to end-users. 
-
 #### [Base Infrastructure Components (BIC)](https://github.com/sagecontinuum/bic):
 BIC in Sage CI provide shared essential services and tools, which include Storage & Storage API, Authorization Service, User Management and Authentication, Sage Continuous Integration, Public Streaming Service, and Sage Web Portal. The BIC are hosted and excuted on the Sage Public Cyber Resources.
 
