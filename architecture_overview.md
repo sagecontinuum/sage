@@ -26,7 +26,7 @@ This slang indicates that an AI@Edge computer is running the Waggle software sta
 ## Software Infrastructure:
 
 #### [Sage Core Services (SCS)](https://github.com/sagecontinuum/bic):
-To deliver the Sage Cyberinfrastructure, a set of essential components and tools provide data APIs, authentication, and management services to the entire framework. 
+To deliver the Sage Cyberinfrastructure, a set of essential components and tools provide data APIs, authentication, and management services to the entire framework.  This includes: Storage & Storage API, Authorization Service, User Management and Authentication, Sage Continuous Integration, Public Streaming Service, and Sage Web Portal.
 
 #### [Waggle Edge Stack (WES)](https://github.com/sagecontinuum/wes):
 The WES includes the operating system image and Waggle services running on the NC and EP as well as the ML run-time libraries and tools. It also manages cybersecurity, certificate management, and manages system resources, such as power, memory, and cores. It constantly updates its state with the cloud server to fetch and perform any task scheduled from SES.
