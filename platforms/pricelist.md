@@ -53,7 +53,7 @@ href="https://www.google.com/url?q=https://sagecontinuum.org/docs/installation-m
 class="c9">Wild Sage Node</a></span></p></td>
 <td class="c11"><p><span class="c1">Ruggedized AI@Edge platform suitable
 for mounting outside, across a wide range of temperatures.  Includes a
-standard set of cameras and sensors (see table below)</span></p></td>
+standard set of cameras and sensors (see table "WSN Sensors & Networking" below)</span></p></td>
 <td class="c30"><p><span class="c1">$9500</span></p></td>
 </tr>
 <tr class="even c18">
