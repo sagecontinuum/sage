@@ -35,6 +35,11 @@ A *Wild Sage Node* or a *Sage Blade* is needed to run the Sage software stack at
 href="https://naise.northwestern.edu">Northwestern University / Argonne Institute for Science and Engineering (NAISE)</a>.  The Sage Blade is a simple Dell server, designed to be hosted in climate-controlled instrumentation huts or office space, and can be purchased directly from Dell. 
 
 <table>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 55%">
+<col style="width: 15%">
+</colgroup>
 <tbody>
 <tr>
 <td colspan="3"><p>Sage
@@ -79,9 +84,9 @@ Depending on scientific goals, a Sage deployment might include several *user ins
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 25%">
+<col style="width: 55%">
+<col style="width: 15%">
 </colgroup>
 <tbody>
 <tr>
@@ -119,7 +124,7 @@ using forward scatter laser nephelometer</p></td>
 href="https://metek.de/product/mrr-pro/">Micro Rain Radar MMR-PRO</a></p></td>
 <td><p>Vertically pointing Ka-band Radar
 that detects precipitation in a vertical column.</p></td>
-<td><p>~ $48,000</p></td>
+<td><p>~$48,000</p></td>
 </tr>
 <tr>
 <td><p><a
@@ -142,7 +147,7 @@ is designed for cloud height reporting and improved vertical</p>
 href="https://halo-photonics.com/lidar-systems/stream-line-series/">Halo Streamline XR</a></p></td>
 <td><p>Doppler LiDAR with  high
 resolution, high output power – a range of ~10km.</p></td>
-<td><p>~ $250,000</p></td>
+<td><p>~$250,000</p></td>
 </tr>
 <tr>
 <td><p><a
@@ -158,13 +163,13 @@ href="https://metek.de/product/usonic-3-class-a/">METEK uSonic-3 3D Ultrasonic A
 <td><p>Provides observations of three
 wind components (U, V, W) and acoustic temperature at a sampling rate of
 up to 50 Hz, with heater for cold weather.</p></td>
-<td><p>~ $11,000</p></td>
+<td><p>~$11,000</p></td>
 </tr>
 </tbody>
 </table>
 
-For Wild Sage Nodes, there are optional components
-that must be integrated at the time the nodes are assembled and tested
+For Wild Sage Nodes, some optional components
+must be integrated at the time the nodes are assembled and tested
 by the electronics company for Northwestern University.  The table below
 provides a list of sensors and additional networking components that can
 be added to Wild Sage Nodes at the time of purchase.  For example, the
@@ -172,6 +177,11 @@ Ouster OS0 LiDAR, shown in the table below, might work best mounted
 directly to a WSN for urban deployments.
 
 <table>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 55%">
+<col style="width: 15%">
+</colgroup>
 <tbody>
 <tr>
 <td colspan="3"><p>WSN Sensors &amp;
@@ -181,6 +191,27 @@ Networking (must be integrated at factory)</p></td>
 <td><p>Component</p></td>
 <td><p>Features</p></td>
 <td><p>Cost</p></td>
+</tr>
+<tr>
+<td><p>Up-facing (cloud) <a
+href="https://hanwhavisionamerica.com/product/xnf-8010rv/">XNF-8010RV</a> camera &amp;
+down-facing (horizon) <a
+href="https://hanwhavisionamerica.com/product/xnv-8081z/">XNV-8081Z</a> camera</p></td>
+<td><p>WSNs support a wide range of
+standard-mount cameras.  Upgraded cameras, such as the Hanwha:
+XNV-8082R or XNV-8080 cost more, and could be
+added.</p></td>
+<td><p>Included in WSN
+price</p></td>
+</tr>
+<tr>
+<td><p>Integrated sensing capabilities for
+Wild Sage Node</p></td>
+<td><p>GPS, Rainfall Sensor> (<a href="https://rainsensors.com/products/rg-15">rg-15</a>), microphone,
+gas,pressure, humidity and temperature sensors (<a
+href="https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/">bme 680</a>)</p></td>
+<td><p>Included in WSN
+price</p></td>
 </tr>
 <tr>
 <td><p><a
@@ -208,27 +239,6 @@ lightning detection, RF spectrum analysis, etc.</p></td>
 networking</p></td>
 <td><p>$300</p></td>
 </tr>
-<tr>
-<td><p>Up-facing (cloud) <a
-href="https://hanwhavisionamerica.com/product/xnf-8010rv/">XNF-8010RV</a> camera &amp;
-down-facing (horizon) <a
-href="https://hanwhavisionamerica.com/product/xnv-8081z/">XNV-8081Z</a> camera</p></td>
-<td><p>WSNs support a wide range of
-standard-mount cameras.  Upgraded cameras, such as the Hanwha:
-XNV-8082R or XNV-8080 cost more, and could be
-added.</p></td>
-<td><p>Included in WSN
-price</p></td>
-</tr>
-<tr>
-<td><p>Integrated sensing capabilities for
-Wild Sage Node</p></td>
-<td><p>GPS, Rainfall Sensor> (<a href="https://rainsensors.com/products/rg-15">rg-15</a>), microphone,
-gas,pressure, humidity and temperature sensors (<a
-href="https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/">bme 680</a>)</p></td>
-<td><p>Included in WSN
-price</p></td>
-</tr>
 </tbody>
 </table>
 
@@ -249,7 +259,11 @@ the Beehive Cloud Service.  Larger deployments are more economical.
 
 <span id="t.9da740a733e479e0d93c750d5a859a1211d44a28"><span id="t.3">
 
-<table class="c28">
+<table>
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
 <tbody>
 <tr class="odd c25">
 <td class="c23"><p><span class="c22 c27 c37">Deployment size
