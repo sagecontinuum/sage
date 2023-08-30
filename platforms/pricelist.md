@@ -19,8 +19,6 @@ costs – every installation is different.  The data below will help
 scientists do basic planning before working with the Sage team to
 construct a specific configuration.
 
-<img src="images/image1.png" style="width: 197.11px; height: 237.50px;"/>
-
 ## Definitions:
 
 -  **Sage Node**:  A specially configured Linux server for running AI at the edge (AI@Edge) computing jobs on the Sage software stack.  A Sage Node is either *Wild Sage Node* or a *Sage Blade*.
