@@ -36,33 +36,32 @@ href="https://naise.northwestern.edu">Northwestern University / Argonne Institut
 
 <span id="t.d5d3903c31cf31288f4c05274eb8978a9cc21e6e"></span><span id="t.0"></span>
 
-<table class="c28">
+<table>
 <tbody>
-<tr class="odd c18">
-<td colspan="3" class="c43"><p><span class="c22 c21">Sage
-Node</span></p></td>
+<tr>
+<td colspan="3"><p>Sage
+Node</p></td>
 </tr>
-<tr class="even c18">
-<td class="c19"><p><span class="c21">Type</span></p></td>
-<td class="c11"><p><span class="c21">Features</span></p></td>
-<td class="c30"><p><span class="c21">Cost</span></p></td>
+<tr>
+<td><p>Type</p></td>
+<td><p>Features</p></td>
+<td><p>Cost</p></td>
 </tr>
 <tr class="odd c18">
-<td class="c33"><p><span class="c8"><a
-href="https://www.google.com/url?q=https://sagecontinuum.org/docs/installation-manuals/wsn-manual&amp;sa=D&amp;source=editors&amp;ust=1693388427189752&amp;usg=AOvVaw1_awzIRr1lAHm6w9bhPoIc"
-class="c9">Wild Sage Node</a></span></p></td>
-<td class="c11"><p><span class="c1">Ruggedized AI@Edge platform suitable
+<td><p><a
+href="https://sagecontinuum.org/docs/installation-manuals/wsn-manual">Wild Sage Node</a></p></td>
+<td><p>Ruggedized AI@Edge platform suitable
 for mounting outside, across a wide range of temperatures.  Includes a
-standard set of cameras and sensors (see table "WSN Sensors & Networking" below)</span></p></td>
-<td class="c30"><p><span class="c1">$9500</span></p></td>
+standard set of cameras and sensors (see table "WSN Sensors & Networking" below)</p></td>
+<td><p>$9500</p></td>
 </tr>
-<tr class="even c18">
-<td class="c33"><p><span class="c1">Sage Blade</span></p></td>
-<td class="c11"><p><span class="c1">Rackmounted server with NVIDIA GPU
+<tr>
+<td><p>Sage Blade</p></td>
+<td><p>Rackmounted server with NVIDIA GPU
 card for AI@Edge workloads.  Dell product line provides robust iDRAC
 remote management features for deployment in remote instrument or
-networking huts.  Educational discounts may vary.</span></p></td>
-<td class="c30"><p><span class="c1">~ $6500</span></p></td>
+networking huts.  Educational discounts may vary.</p></td>
+<td><p>~ $6500</p></td>
 </tr>
 </tbody>
 </table>
