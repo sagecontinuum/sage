@@ -195,7 +195,7 @@ href="https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrator
 <td><p>LoRaWAN RPi Gateway</p></td>
 <td><p>$600</p></td>
 </tr>
-<tr>rg-
+<tr>
 <td><p><a
 href="https://www.rtl-sdr.com">RTL-SDR</a></p></td>
 <td><p>Software Defined Radio: provides
