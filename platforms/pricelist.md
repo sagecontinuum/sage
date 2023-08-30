@@ -34,8 +34,6 @@ construct a specific configuration.
 A *Wild Sage Node* or a *Sage Blade* is needed to run the Sage software stack at the edge and connect to sensors.  Wild Sage Nodes must be purchased from Northwestern University via a contract with the Sage team at the <a
 href="https://naise.northwestern.edu">Northwestern University / Argonne Institute for Science and Engineering (NAISE)</a>.  The Sage Blade is a simple Dell server, designed to be hosted in climate-controlled instrumentation huts or office space, and can be purchased directly from Dell. 
 
-<span id="t.d5d3903c31cf31288f4c05274eb8978a9cc21e6e"></span><span id="t.0"></span>
-
 <table>
 <tbody>
 <tr>
@@ -47,7 +45,7 @@ Node</p></td>
 <td><p>Features</p></td>
 <td><p>Cost</p></td>
 </tr>
-<tr class="odd c18">
+<tr>
 <td><p><a
 href="https://sagecontinuum.org/docs/installation-manuals/wsn-manual">Wild Sage Node</a></p></td>
 <td><p>Ruggedized AI@Edge platform suitable
@@ -61,12 +59,10 @@ standard set of cameras and sensors (see table "WSN Sensors & Networking" below)
 card for AI@Edge workloads.  Dell product line provides robust iDRAC
 remote management features for deployment in remote instrument or
 networking huts.  Educational discounts may vary.</p></td>
-<td><p>~ $6500</p></td>
+<td><p>~$6500</p></td>
 </tr>
 </tbody>
 </table>
-
-<span class="c22 c37 c47"></span>
 
 ## Sensors:
 
