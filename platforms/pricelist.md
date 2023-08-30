@@ -31,7 +31,7 @@ construct a specific configuration.
 
 ## Sage Node:
 
-A Wild Sage Node or a Sage Blade is needed to run the Sage software stack at the edge and connect to sensors.  Wild Sage Nodes must be purchased from Northwestern University via a contract with the Sage team at the <a
+A *Wild Sage Node* or a *Sage Blade* is needed to run the Sage software stack at the edge and connect to sensors.  Wild Sage Nodes must be purchased from Northwestern University via a contract with the Sage team at the <a
 href="https://naise.northwestern.edu">Northwestern University / Argonne Institute for Science and Engineering (NAISE)</a>.  The Sage Blade is a simple Dell server, designed to be hosted in climate-controlled instrumentation huts or office space, and can be purchased directly from Dell. 
 
 <span id="t.d5d3903c31cf31288f4c05274eb8978a9cc21e6e"></span><span id="t.0"></span>
