@@ -252,8 +252,6 @@ deployed nodes.
 The table below shows the price per year, per node, for
 the Beehive Cloud Service.  Larger deployments are more economical.
 
-<span id="t.9da740a733e479e0d93c750d5a859a1211d44a28"><span id="t.3">
-
 <table>
 <colgroup>
 <col style="width: 20%">
@@ -261,10 +259,9 @@ the Beehive Cloud Service.  Larger deployments are more economical.
 </colgroup>
 <tbody>
 <tr class="odd c25">
-<td class="c23"><p><span class="c22 c27 c37">Deployment size
+<td class="c23"><p>Deployment size
 (nodes)        </p></td>
-<td class="c17"><p><span
-class="c22 c27 c37">Cost/year/node</p></td>
+<td class="c17"><p>Cost/year/node</p></td>
 </tr>
 <tr class="even c25">
 <td class="c23"><p>1</p></td>
@@ -300,46 +297,43 @@ class="c22 c27 c37">Cost/year/node</p></td>
 Networking and data transfer, for example cellular broadband LTE or
 Starlink, should also be budgeted, and depends on local wireless
 providers and their pricing.  WSNs not directly connected via wired
-Ethernet or Starlink, will likely need an LTE modem or Wifi connection
-installed during manufacturing.
+Ethernet or Starlink, will likely need an broadband LTE modem or Wifi connection
+installed during manufacturing (see table above).
 
 ## Worked Example
 
 Given the costs above, here are some worked
 examples:
 
-**Example A**:  A single WSN with
-additional Mobotix Infrared sensor connected to a Pan/Tilt
-platform:
+**Example A**:  A single WSN with additional Mobotix Infrared sensor connected to a Pan/Tilt platform:
 
-Sensors: \$10000
+Sensors: \$10,000 (Mobotix)
 
-WSN: \$9500
+WSN: \$9,500 (node) + \$300 (Broadband LTE Modem) = \$9,800
 
-Beehive Cloud Service: \$16700/yr
+Beehive Cloud Service: \$16,700/yr
 
-Broadband: \$480/yr
+Broadband Networking Data Plan: \$480/yr
 
-So the total for the first year would be: \$36,680 (equipment purchase + Beehive and broadband)
+So the total for the first year would be: \$36,980 (equipment purchase + Beehive and broadband)
 
-Additional years would be \$17,180 (beehive and broadband cost)
+Additional years would be \$17,180 (Beehive and broadband cost)
 
-**Example B**:  A 20 node deployment: 10 WSN and 10 Sage Blades, each with an Air Quality sensor. Also, there are two Micropulse Radars (assuming \$25k each). Assume WSN nodes with LTE broadband, and Sage Blades are hard wired to the
-non-metered and zero cost Internet infrastructure.
+**Example B**:  A 20 node deployment: 10 WSN and 10 Sage Blades, each with an Air Quality sensor. Also, there are two Micropulse Radars (assuming \$25k each). Assume networking for Wild Sage Nodes is provided by LTE broadband; Sage Blades are hard wired to the non-metered and zero cost Internet infrastructure.
 
-Sensors: \$3500 \* 20  +  25000 \* 2 = \$120,000
+Sensors: \$3,500 (MetOne) \* 20  + \$25,000 (micropulse radar) \* 2 = \$120,000
 
-WSN: \$9500 \* 10 = \$95,000
+WSN: (\$9,500 (node) + \$300 (Broadband LTE Modem)) \* 10 = \$98,000
 
-Sage Blade: \$6500 \* 10 = \$65,000
+Sage Blade: \$6,500 \* 10 = \$65,000
 
-Beehive Cloud Service: \$8300 \* 20 = \$166,000
+Beehive Cloud Service: \$8,300 \* 20 = \$166,000
 
-Broadband: \$480/yr \* 10 = \$4,800
+Broadband Networking Data Plan: \$480/yr \* 10 = \$4,800
 
-So the total for the first year would be: \$450,800 (equipment plus Beehive and broadband).
+So the total for the first year would be: \$453,800 (equipment plus Beehive and broadband).
 
-Additional years would be \$170,800 (beehive and broadband cost)
+Additional years would be \$170,800 (Beehive and broadband cost)
 
 For a 3 year NSF grant, the total charged to the project for a 20 node deployment with Sage nodes and the sensors described above: \$792,400.
 
