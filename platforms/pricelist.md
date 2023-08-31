@@ -12,8 +12,7 @@ needed:
 Each component is priced separately, based on your scientific
 needs.  The sum of all four pieces provides the total cost you should
 budget.  You should plan for installation as well.  For many
-installations, students can perform the needed work.  However, for urban
-and tower deployments, special installation procedures might be
+installations, students or scientific staff can perform the needed work.  However, for urban and tower deployments, special installation procedures might be
 required. Ask the Sage team for guidance estimating your installation
 costs – every installation is different.  The data below will help
 scientists do basic planning before working with the Sage team to
@@ -21,7 +20,7 @@ construct a specific configuration.
 
 ## Definitions:
 
--  **Sage Node**:  A specially configured Linux server for running AI at the edge (AI@Edge) computing jobs on the Sage software stack.  A Sage Node is either *Wild Sage Node* or a *Sage Blade*.
+-  **Sage Node**:  A specially configured Linux server for running AI at the edge (AI@Edge) computing jobs with the Sage software stack.  A Sage Node is either a *Wild Sage Node* or a *Sage Blade*.
 
 - **Wild Sage Node (WSN)**: A weatherized AI@Edge Linux node with extreme resilience features and support for attached power-over-ethernet (PoE) and USB sensors. Currently, the AI processor is an NVIDIA Jetson NX.
 
@@ -36,8 +35,8 @@ href="https://naise.northwestern.edu">Northwestern University / Argonne Institut
 
 <table>
 <colgroup>
-<col style="width: 25%">
-<col style="width: 55%">
+<col style="width: 15%">
+<col style="width: 75%">
 <col style="width: 15%">
 </colgroup>
 <tbody>
@@ -61,9 +60,7 @@ standard set of cameras and sensors (see table "WSN Sensors & Networking" below)
 <tr>
 <td><p>Sage Blade</p></td>
 <td><p>Rackmounted server with NVIDIA GPU
-card for AI@Edge workloads.  Dell product line provides robust iDRAC
-remote management features for deployment in remote instrument or
-networking huts.  Educational discounts may vary.</p></td>
+for AI@Edge workloads.  Robust remote management (iDRAC) supports deployment in remote instrument or networking huts.  Educational discounts vary.</p></td>
 <td><p>~$6500</p></td>
 </tr>
 </tbody>
@@ -75,12 +72,10 @@ Sage is designed to be expandable, so scientists can
 attach their own sensors.  There is a growing list of sensors for which
 the Sage team or Open Source contributors have already developed a
 “plugin” which runs on a Sage Node and can collect data from a local
-sensor.  Teams can also use the excellent online documentation to
-integrate their own sensors and write a sensor plugin.  The following
-sensors are currently supported, with plugins that can pull data from
+sensor for AI@Edge processing.  Teams can also use the excellent online documentation to integrate their own sensors and write a sensor plugin.  The following sensors are currently supported, with plugins that can pull data from
 the sensor for in situ analysis on a Sage Node.
 
-Depending on scientific goals, a Sage deployment might include several *user installed* sensors added to each Sage node.  The table below provides a list of some of the common additional sensors that can be connected to a Sage Node.  The extremely expensive sensors are not required, but demonstrate that Sage has integrated a wide range of the highest quality sensors, from simple camera and particulate sensors to radar and lidar.
+Depending on scientific goals, a Sage deployment might include several *user installed* sensors connected to each Sage Node.  The table below provides a list of some of the common additional sensors that can be easily attached.  The expensive sensors are not required, but demonstrate that Sage has integrated a wide range of the highest quality sensors, from simple camera and particulate sensors to radar and lidar.
 
 <table>
 <colgroup>
@@ -94,9 +89,32 @@ Depending on scientific goals, a Sage deployment might include several *user ins
 Sensors (at deployment site)</p></td>
 </tr>
 <tr>
-<td><p>Sensor</p></td>
-<td><p>Features</p></td>
-<td ><p>Cost</p></td>
+<td>Sensor</td>
+<td>Features</td>
+<td>Cost</td>
+</tr>
+<tr>
+<td><p><a
+href="https://store.vaisala.com/en/products/WXT530">Vaisala WXT530</a></p></td>
+<td><p>Provides high quality barometric
+pressure, temperature, relative humidity, rainfall, wind speed and
+direction measurements.</p></td>
+<td><p>$3,200</p></td>
+</tr>
+<tr>
+<td><p><a
+href="https://www.vaisala.com/en/products/weather-environmental-sensors/air-quality-transmitter-aqt530-urban-industrial-systems">Vaisala AQT530</a></p></td>
+<td><p>Provides observations on
+meteorological conditions, including particulate matter (PM2.5, PM10)
+and gas species concentrations (NO, NO2, O3, CO).</p></td>
+<td><p>$3,500</p></td>
+</tr>
+<tr>
+<td><p><a
+href="https://metone.com/products/es-642/">MetOne ES-642</a></p></td>
+<td><p>Detects 0.5 to 10 micron particles
+using forward scatter laser nephelometer</p></td>
+<td><p>$3,500</p></td>
 </tr>
 <tr>
 <td><p><a
@@ -114,10 +132,11 @@ on PT mount</p></td>
 </tr>
 <tr>
 <td><p><a
-href="https://metone.com/products/es-642/">MetOne ES-642</a></p></td>
-<td><p>Detects 0.5 to 10 micron particles
-using forward scatter laser nephelometer</p></td>
-<td><p>$3,500</p></td>
+href="https://metek.de/product/usonic-3-class-a/">METEK uSonic-3 3D Ultrasonic Anemometer</a> </p></td>
+<td><p>Provides observations of three
+wind components (U, V, W) and acoustic temperature at a sampling rate of
+up to 50 Hz, with heater for cold weather.</p></td>
+<td><p>~$11,000</p></td>
 </tr>
 <tr>
 <td><p><a
@@ -125,14 +144,6 @@ href="https://metek.de/product/mrr-pro/">Micro Rain Radar MMR-PRO</a></p></td>
 <td><p>Vertically pointing Ka-band Radar
 that detects precipitation in a vertical column.</p></td>
 <td><p>~$48,000</p></td>
-</tr>
-<tr>
-<td><p><a
-href="https://store.vaisala.com/en/products/WXT530">Vaisala WXT530</a></p></td>
-<td><p>Provides high quality barometric
-pressure, temperature, relative humidity, rainfall, wind speed and
-direction measurements.</p></td>
-<td><p>$3,200</p></td>
 </tr>
 <tr>
 <td><p><a
@@ -148,22 +159,6 @@ href="https://halo-photonics.com/lidar-systems/stream-line-series/">Halo Streaml
 <td><p>Doppler LiDAR with  high
 resolution, high output power – a range of ~10km.</p></td>
 <td><p>~$250,000</p></td>
-</tr>
-<tr>
-<td><p><a
-href="https://www.vaisala.com/en/products/weather-environmental-sensors/air-quality-transmitter-aqt530-urban-industrial-systems">Vaisala AQT530</a></p></td>
-<td><p>Provides observations on
-meteorological conditions, including particulate matter (PM2.5, PM10)
-and gas species concentrations (NO, NO2, O3, CO).</p></td>
-<td><p>$3,500</p></td>
-</tr>
-<tr>
-<td><p><a
-href="https://metek.de/product/usonic-3-class-a/">METEK uSonic-3 3D Ultrasonic Anemometer</a> </p></td>
-<td><p>Provides observations of three
-wind components (U, V, W) and acoustic temperature at a sampling rate of
-up to 50 Hz, with heater for cold weather.</p></td>
-<td><p>~$11,000</p></td>
 </tr>
 </tbody>
 </table>
