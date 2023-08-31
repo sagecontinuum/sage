@@ -41,27 +41,27 @@ href="https://naise.northwestern.edu">Northwestern University / Argonne Institut
 </colgroup>
 <tbody>
 <tr>
-<td colspan="3"><p>Sage
-Node</p></td>
+<td colspan="3">Sage
+Node</td>
 </tr>
 <tr>
-<td><p>Type</p></td>
-<td><p>Features</p></td>
-<td><p>Cost</p></td>
+<td>Type</td>
+<td>Features</td>
+<td>Cost</td>
 </tr>
 <tr>
-<td><p><a
-href="https://sagecontinuum.org/docs/installation-manuals/wsn-manual">Wild Sage Node</a></p></td>
-<td><p>Ruggedized AI@Edge platform suitable
+<td><a
+href="https://sagecontinuum.org/docs/installation-manuals/wsn-manual">Wild Sage Node</a></td>
+<td>Ruggedized AI@Edge platform suitable
 for mounting outside, across a wide range of temperatures.  Includes a
-standard set of cameras and sensors (see table "WSN Sensors & Networking" below)</p></td>
-<td><p>$9500</p></td>
+standard set of cameras and sensors (see table "WSN Sensors & Networking" below)</td>
+<td>$9500</td>
 </tr>
 <tr>
-<td><p>Sage Blade</p></td>
-<td><p>Rackmounted server with NVIDIA GPU
-for AI@Edge workloads.  Robust remote management (iDRAC) supports deployment in remote instrument or networking huts.  Educational discounts vary.</p></td>
-<td><p>~$6500</p></td>
+<td>Sage Blade</td>
+<td>Rackmounted server with NVIDIA GPU
+for AI@Edge workloads.  Robust remote management (iDRAC) supports deployment in remote instrument or networking huts.  Educational discounts vary.</td>
+<td>~$6500</td>
 </tr>
 </tbody>
 </table>
@@ -85,8 +85,8 @@ Depending on scientific goals, a Sage deployment might include several *user ins
 </colgroup>
 <tbody>
 <tr>
-<td colspan="3"><p>User Installed
-Sensors (at deployment site)</p></td>
+<td colspan="3">User Installed
+Sensors (at deployment site)</td>
 </tr>
 <tr>
 <td>Sensor</td>
@@ -94,71 +94,71 @@ Sensors (at deployment site)</p></td>
 <td>Cost</td>
 </tr>
 <tr>
-<td><p><a
-href="https://store.vaisala.com/en/products/WXT530">Vaisala WXT530</a></p></td>
-<td><p>Provides high quality barometric
+<td><a
+href="https://store.vaisala.com/en/products/WXT530">Vaisala WXT530</a></td>
+<td>Provides high quality barometric
 pressure, temperature, relative humidity, rainfall, wind speed and
-direction measurements.</p></td>
-<td><p>$3,200</p></td>
+direction measurements.</td>
+<td>$3,200</td>
 </tr>
 <tr>
-<td><p><a
-href="https://www.vaisala.com/en/products/weather-environmental-sensors/air-quality-transmitter-aqt530-urban-industrial-systems">Vaisala AQT530</a></p></td>
-<td><p>Provides observations on
+<td><a
+href="https://www.vaisala.com/en/products/weather-environmental-sensors/air-quality-transmitter-aqt530-urban-industrial-systems">Vaisala AQT530</a></td>
+<td>Provides observations on
 meteorological conditions, including particulate matter (PM2.5, PM10)
-and gas species concentrations (NO, NO2, O3, CO).</p></td>
-<td><p>$3,500</p></td>
+and gas species concentrations (NO, NO2, O3, CO).</td>
+<td>$3,500</td>
 </tr>
 <tr>
-<td><p><a
-href="https://metone.com/products/es-642/">MetOne ES-642</a></p></td>
-<td><p>Detects 0.5 to 10 micron particles
-using forward scatter laser nephelometer</p></td>
-<td><p>$3,500</p></td>
+<td><a
+href="https://metone.com/products/es-642/">MetOne ES-642</a></td>
+<td>Detects 0.5 to 10 micron particles
+using forward scatter laser nephelometer</td>
+<td>$3,500</td>
 </tr>
 <tr>
-<td><p><a
-href="https://hanwhavisionamerica.com/product/xnp-6400rw/">Hanwha XNP-6400RW</a></p></td>
-<td><p>Continuous PTZ Optical
-Camera</p></td>
-<td><p>$4,000</p></td>
+<td><a
+href="https://hanwhavisionamerica.com/product/xnp-6400rw/">Hanwha XNP-6400RW</a></td>
+<td>Continuous PTZ Optical
+Camera</td>
+<td>$4,000</td>
 </tr>
 <tr>
-<td><p><a
-href="https://www.mobotix.com/en/products/outdoor-cameras/m16-allrounddual">Mobotix MX-M16TB-R079IP</a></p></td>
-<td><p>Thermal and Optical dual eye camera
-on PT mount</p></td>
-<td><p>$10,000</p></td>
+<td><a
+href="https://www.mobotix.com/en/products/outdoor-cameras/m16-allrounddual">Mobotix MX-M16TB-R079IP</a></td>
+<td>Thermal and Optical dual eye camera
+on PT mount</td>
+<td>$10,000</td>
 </tr>
 <tr>
-<td><p><a
-href="https://metek.de/product/usonic-3-class-a/">METEK uSonic-3 3D Ultrasonic Anemometer</a> </p></td>
-<td><p>Provides observations of three
+<td><a
+href="https://metek.de/product/usonic-3-class-a/">METEK uSonic-3 3D Ultrasonic Anemometer</a> </td>
+<td>Provides observations of three
 wind components (U, V, W) and acoustic temperature at a sampling rate of
-up to 50 Hz, with heater for cold weather.</p></td>
-<td><p>~$11,000</p></td>
+up to 50 Hz, with heater for cold weather.</td>
+<td>~$11,000</td>
 </tr>
 <tr>
-<td><p><a
-href="https://metek.de/product/mrr-pro/">Micro Rain Radar MMR-PRO</a></p></td>
-<td><p>Vertically pointing Ka-band Radar
-that detects precipitation in a vertical column.</p></td>
-<td><p>~$48,000</p></td>
+<td><a
+href="https://metek.de/product/mrr-pro/">Micro Rain Radar MMR-PRO</a></td>
+<td>Vertically pointing Ka-band Radar
+that detects precipitation in a vertical column.</td>
+<td>~$48,000</td>
 </tr>
 <tr>
-<td><p><a
-href="https://www.vaisala.com/en/products/weather-environmental-sensors/ceilometer-CL61-meteorology">Vaisala CL61</a></p></td>
-<td><p>Lidar Ceilometer with depolarization
-is designed for cloud height reporting and improved vertical</p>
-<p>aerosol profiling.</p></td>
-<td><p>~$50,000</p></td>
+<td><a
+href="https://www.vaisala.com/en/products/weather-environmental-sensors/ceilometer-CL61-meteorology">Vaisala CL61</a></td>
+<td>Lidar Ceilometer with depolarization
+is designed for cloud height reporting and improved vertical
+aerosol profiling.</td>
+<td>~$50,000</td>
 </tr>
 <tr>
-<td><p><a
-href="https://halo-photonics.com/lidar-systems/stream-line-series/">Halo Streamline XR</a></p></td>
-<td><p>Doppler LiDAR with  high
-resolution, high output power – a range of ~10km.</p></td>
-<td><p>~$250,000</p></td>
+<td><a
+href="https://halo-photonics.com/lidar-systems/stream-line-series/">Halo Streamline XR</a></td>
+<td>Doppler LiDAR with  high
+resolution, high output power – a range of ~10km.</td>
+<td>~$250,000</td>
 </tr>
 </tbody>
 </table>
@@ -179,60 +179,60 @@ directly to a WSN for urban deployments.
 </colgroup>
 <tbody>
 <tr>
-<td colspan="3"><p>WSN Sensors &amp;
-Networking (must be integrated at factory)</p></td>
+<td colspan="3">WSN Sensors &amp;
+Networking (must be integrated at factory)</td>
 </tr>
 <tr>
-<td><p>Component</p></td>
-<td><p>Features</p></td>
-<td><p>Cost</p></td>
+<td>Component</td>
+<td>Features</td>
+<td>Cost</td>
 </tr>
 <tr>
-<td><p>Up-facing (cloud) <a
+<td>Up-facing (cloud) <a
 href="https://hanwhavisionamerica.com/product/xnf-8010rv/">XNF-8010RV</a> camera &amp;
 down-facing (horizon) <a
-href="https://hanwhavisionamerica.com/product/xnv-8081z/">XNV-8081Z</a> camera</p></td>
-<td><p>WSNs support a wide range of
+href="https://hanwhavisionamerica.com/product/xnv-8081z/">XNV-8081Z</a> camera</td>
+<td>WSNs support a wide range of
 standard-mount cameras.  Upgraded cameras, such as the Hanwha:
 XNV-8082R or XNV-8080 cost more, and could be
-added.</p></td>
-<td><p>Included in WSN
-price</p></td>
+added.</td>
+<td>Included in WSN
+price</td>
 </tr>
 <tr>
-<td><p>Integrated sensing capabilities for
-Wild Sage Node</p></td>
-<td><p>GPS, Rainfall Sensor> (<a href="https://rainsensors.com/products/rg-15">rg-15</a>), microphone,
+<td>Integrated sensing capabilities for
+Wild Sage Node</td>
+<td>GPS, Rainfall Sensor> (<a href="https://rainsensors.com/products/rg-15">rg-15</a>), microphone,
 gas,pressure, humidity and temperature sensors (<a
-href="https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/">bme 680</a>)</p></td>
-<td><p>Included in WSN
-price</p></td>
+href="https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/">bme 680</a>)</td>
+<td>Included in WSN
+price</td>
 </tr>
 <tr>
-<td><p><a
-href="https://ouster.com/products/scanning-lidar/os0-sensor/">Ouster OS0 LiDAR</a></p></td>
-<td><p>Ultra-wide 90° field of view digital
-lidar sensor</p></td>
-<td><p>$9500</p></td>
+<td><a
+href="https://ouster.com/products/scanning-lidar/os0-sensor/">Ouster OS0 LiDAR</a></td>
+<td>Ultra-wide 90° field of view digital
+lidar sensor</td>
+<td>$9500</td>
 </tr>
 <tr>
-<td><p><a
-href="https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrators/rak2287-sx1302">RAK2287</a></p></td>
-<td><p>LoRaWAN RPi Gateway</p></td>
-<td><p>$600</p></td>
+<td><a
+href="https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrators/rak2287-sx1302">RAK2287</a></td>
+<td>LoRaWAN RPi Gateway</td>
+<td>$600</td>
 </tr>
 <tr>
-<td><p><a
-href="https://www.rtl-sdr.com">RTL-SDR</a></p></td>
-<td><p>Software Defined Radio: provides
-lightning detection, RF spectrum analysis, etc.</p></td>
-<td><p>$100</p></td>
+<td><a
+href="https://www.rtl-sdr.com">RTL-SDR</a></td>
+<td>Software Defined Radio: provides
+lightning detection, RF spectrum analysis, etc.</td>
+<td>$100</td>
 </tr>
 <tr>
-<td><p>Broadband Modem</p></td>
-<td><p>Cellular (LTE) for
-networking</p></td>
-<td><p>$300</p></td>
+<td>Broadband Modem</td>
+<td>Cellular (LTE) for
+networking</td>
+<td>$300</td>
 </tr>
 </tbody>
 </table>
@@ -259,33 +259,33 @@ the Beehive Cloud Service.  Larger deployments are more economical.
 </colgroup>
 <tbody>
 <tr class="odd c25">
-<td class="c23"><p>Deployment size
-(nodes)        </p></td>
-<td class="c17"><p>Cost/year/node</p></td>
+<td class="c23">Deployment size
+(nodes)        </td>
+<td class="c17">Cost/year/node</td>
 </tr>
 <tr class="even c25">
-<td class="c23"><p>1</p></td>
-<td class="c17"><p>$16.7K</p></td>
+<td class="c23">1</td>
+<td class="c17">$16.7K</td>
 </tr>
 <tr class="odd c41">
-<td class="c23"><p>5</p></td>
-<td class="c17"><p>$13.3K</p></td>
+<td class="c23">5</td>
+<td class="c17">$13.3K</td>
 </tr>
 <tr class="even c25">
-<td class="c23"><p>10</p></td>
-<td class="c17"><p>$9.8K</p></td>
+<td class="c23">10</td>
+<td class="c17">$9.8K</td>
 </tr>
 <tr class="odd c25">
-<td class="c23"><p>20</p></td>
-<td class="c17"><p>$8.3K</p></td>
+<td class="c23">20</td>
+<td class="c17">$8.3K</td>
 </tr>
 <tr class="even c25">
-<td class="c23"><p>30</p></td>
-<td class="c17"><p>$7.7K</p></td>
+<td class="c23">30</td>
+<td class="c17">$7.7K</td>
 </tr>
 <tr class="odd c25">
-<td class="c23"><p>50</p></td>
-<td class="c17"><p>$7K</p></td>
+<td class="c23">50</td>
+<td class="c17">$7K</td>
 </tr>
 </tbody>
 </table>
