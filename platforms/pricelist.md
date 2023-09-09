@@ -12,7 +12,7 @@ needed:
 Each component is priced separately, based on your scientific
 needs.  The sum of all four pieces provides the total cost you should
 budget.  You should plan for installation as well.  For many
-installations, students or scientific staff can perform the needed work.  However, for urban and tower deployments, special installation procedures might be
+installations, students or scientific staff can perform the needed work. However, for urban and tower deployments, special installation procedures might be
 required. Ask the Sage team for guidance estimating your installation
 costs – every installation is different.  The data below will help
 scientists do basic planning before working with the Sage team to
