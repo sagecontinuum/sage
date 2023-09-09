@@ -3,19 +3,14 @@
 To deploy your own Sage system, four parts are
 needed:
 
-1.  **Sage Nodes** — edge
+1.  **Sage Nodes** — Edge
     computers for in situ AI processing.
-2.  **Sensors** — what does your science need?
-3.  **Beehive Cloud Service** — storage and data management for Sage Nodes
-4.  **Networking** — mobile broadband, Starlink, wired, or WiFi networking
+2.  **Sensors** — What does your science need?
+3.  **Beehive Cloud Service** — Storage, data management, and software updates for Sage Nodes
+4.  **Networking** — Mobile broadband, Starlink, wired, or WiFi networking
 
-Each component is priced separately, based on your scientific
-needs.  The sum of all four pieces provides the total cost you should
-budget.  You should plan for installation as well.  For many
-installations, students or scientific staff can perform the needed work. However, for urban and tower deployments, special installation procedures might be
-required. Ask the Sage team for guidance estimating your installation
-costs – every installation is different.  The data below will help
-scientists do basic planning before working with the Sage team to
+Each component is priced separately, based on your scientific needs. The <a
+href="https://naise.northwestern.edu">Northwestern University / Argonne Institute for Science and Engineering (NAISE)</a> is the endpoint for purchasing contracts. The sum of all four pieces provides the total cost you should budget.  You should plan for installation as well. For many installations, students or scientific staff can perform the needed work. However, for urban and tower deployments, special installation procedures may be required. Ask the Sage team for guidance estimating your installation costs – every installation is different.  The data below will help scientists do basic planning before working with the Sage team to
 construct a specific configuration.
 
 ## Definitions:
@@ -30,8 +25,7 @@ construct a specific configuration.
 
 ## Sage Node:
 
-A *Wild Sage Node* or a *Sage Blade* is needed to run the Sage software stack at the edge and connect to sensors.  Wild Sage Nodes must be purchased from Northwestern University via a contract with the Sage team at the <a
-href="https://naise.northwestern.edu">Northwestern University / Argonne Institute for Science and Engineering (NAISE)</a>.  The Sage Blade is a simple Dell server, designed to be hosted in climate-controlled instrumentation huts or office space, and can be purchased directly from Dell. 
+A *Wild Sage Node* or a *Sage Blade* is needed to run the Sage software stack at the edge and connect to sensors.  Wild Sage Nodes must be purchased from NAISE via a contract with Northwestern University, a non-profit university.  The Sage Blade is a simple Dell server, designed to be hosted in climate-controlled instrumentation huts or office space, and can be purchased directly from Dell. 
 
 <table>
 <colgroup>
