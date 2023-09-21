@@ -41,7 +41,7 @@ Node</td>
 <tr>
 <td>Type</td>
 <td>Features</td>
-<td>Cost</td>
+<td>2024 Cost</td>
 </tr>
 <tr>
 <td><a
@@ -49,7 +49,7 @@ href="https://sagecontinuum.org/docs/installation-manuals/wsn-manual">Wild Sage 
 <td>Ruggedized AI@Edge platform suitable
 for mounting outside, across a wide range of temperatures.  Includes a
 standard set of cameras and sensors (see table "WSN Sensors & Networking" below)</td>
-<td>$9500</td>
+<td>$10,100</td>
 </tr>
 <tr>
 <td>Sage Blade</td>
@@ -255,31 +255,31 @@ the Beehive Cloud Service.  Larger deployments are more economical.
 <tr class="odd c25">
 <td class="c23">Deployment size
 (nodes)        </td>
-<td class="c17">Cost/year/node</td>
+<td class="c17">2024 Cost/year/node</td>
 </tr>
 <tr class="even c25">
 <td class="c23">1</td>
-<td class="c17">$16.7K</td>
+<td class="c17">$15.0K</td>
 </tr>
 <tr class="odd c41">
 <td class="c23">5</td>
-<td class="c17">$13.3K</td>
+<td class="c17">$15.0K</td>
 </tr>
 <tr class="even c25">
 <td class="c23">10</td>
-<td class="c17">$9.8K</td>
+<td class="c17">$11.7K</td>
 </tr>
 <tr class="odd c25">
 <td class="c23">20</td>
-<td class="c17">$8.3K</td>
+<td class="c17">$10.2K</td>
 </tr>
 <tr class="even c25">
 <td class="c23">30</td>
-<td class="c17">$7.7K</td>
+<td class="c17">$9.5K</td>
 </tr>
 <tr class="odd c25">
 <td class="c23">50</td>
-<td class="c17">$7K</td>
+<td class="c17">$8.8K</td>
 </tr>
 </tbody>
 </table>
