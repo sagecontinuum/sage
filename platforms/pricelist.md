@@ -243,8 +243,9 @@ provides teams access to the web-based management portal. Beehive also
 manages cybersecurity and software updates, such as new AI libraries, to
 deployed nodes.
 
-The table below shows the price per year, per node, for
-the Beehive Cloud Service.  Larger deployments are more economical.
+The table below provides the cost per year, per node, for
+the Beehive Cloud Service.  Larger deployments are more economical because
+management operations and configuration changes are often shared across a given set of deployed nodes.
 
 <table>
 <colgroup>
