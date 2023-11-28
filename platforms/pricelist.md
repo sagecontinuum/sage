@@ -10,7 +10,7 @@ needed:
 4.  **Networking** — Mobile broadband, Starlink, wired, or WiFi networking
 
 Each component is priced separately, based on your scientific needs. The <a
-href="https://naise.northwestern.edu">Northwestern University / Argonne Institute for Science and Engineering (NAISE)</a> is the endpoint for purchasing contracts. The sum of all four pieces provides the total cost you should budget.  You should plan for installation as well. For many installations, students or scientific staff can perform the needed work. However, for urban and tower deployments, special installation procedures may be required. Ask the Sage team for guidance estimating your installation costs – every installation is different.  The data below will help scientists do basic planning before working with the Sage team to
+href="https://naise.northwestern.edu">Northwestern University / Argonne Institute for Science and Engineering (NAISE)</a> is the endpoint for purchasing contracts. The sum of all four pieces provides the total cost.  Installation costs must be budgeted as well, and may require permits or installation contractors. For many installations, students or scientific staff can perform the needed work. However, for urban and tower deployments, special installation procedures may be required. Ask the Sage team for guidance estimating your installation costs – every installation is different.  The data below will help scientists do basic planning before working with the Sage team to
 construct a specific configuration.
 
 ## Definitions:
@@ -19,9 +19,9 @@ construct a specific configuration.
 
 - **Wild Sage Node (WSN)**: A weatherized AI@Edge Linux node with extreme resilience features and support for attached power-over-ethernet (PoE) and USB sensors. Currently, the AI processor is an NVIDIA Jetson NX.
 
-- **Sage Blade (SB)**:  A Dell server with robust remote management features (iDRAC) and often extended environmental range (temperature and humidity). The AI processor is an NVIDIA T4 or similar accelerator.
+- **Sage Blade (SB)**:  A server with robust remote management features, such as the Dell iDrac or HPE iLO. Often, extended environmental range (temperature and humidity) is desired.  The AI processor could be an NVIDIA PCIe accelerator, or similar.
 
-- **Beehive Cloud Service**: The backend data and management cloud service operated by the Sage team.  It provides a data archive, job scheduling, data access APIs, cybersecurity, and software maintenance updates and AI framework upgrades to nodes.
+- **Beehive Cloud Service**: The backend data and management cloud service operated by the Northwestern University Sage team.  It provides a data archive, job scheduling, data access APIs, cybersecurity, and software maintenance updates and AI framework upgrades to nodes.
 
 ## Sage Node:
 
@@ -259,27 +259,27 @@ the Beehive Cloud Service.  Larger deployments are more economical.
 </tr>
 <tr class="even c25">
 <td class="c23">1</td>
-<td class="c17">$15.0K</td>
+<td class="c17">$16.0K</td>
 </tr>
 <tr class="odd c41">
 <td class="c23">5</td>
-<td class="c17">$15.0K</td>
+<td class="c17">$16.0K</td>
 </tr>
 <tr class="even c25">
 <td class="c23">10</td>
-<td class="c17">$11.7K</td>
+<td class="c17">$12.5K</td>
 </tr>
 <tr class="odd c25">
 <td class="c23">20</td>
-<td class="c17">$10.2K</td>
+<td class="c17">$10.9K</td>
 </tr>
 <tr class="even c25">
 <td class="c23">30</td>
-<td class="c17">$9.5K</td>
+<td class="c17">$10.1K</td>
 </tr>
 <tr class="odd c25">
 <td class="c23">50</td>
-<td class="c17">$8.8K</td>
+<td class="c17">$9.4K</td>
 </tr>
 </tbody>
 </table>
@@ -303,33 +303,33 @@ examples:
 
 Sensors: \$10,000 (Mobotix)
 
-WSN: \$9,500 (node) + \$300 (Broadband LTE Modem) = \$9,800
+WSN: \$10,100 (node) + \$300 (Broadband LTE Modem) = \$10,400
 
-Beehive Cloud Service: \$16,700/yr
+Beehive Cloud Service: \$16,000/yr
 
-Broadband Networking Data Plan: \$480/yr
+Broadband Networking Data Plan for WSNs: \$480/yr
 
-So the total for the first year would be: \$36,980 (equipment purchase + Beehive and broadband)
+So the total for the first year would be: \$36,880 (equipment purchase + Beehive and broadband)
 
-Additional years would be \$17,180 (Beehive and broadband cost)
+Additional years would be \$16,480 (Beehive and broadband cost)
 
 **Example B**:  A 20 node deployment: 10 WSN and 10 Sage Blades, each with an Air Quality sensor. Also, there are two Micropulse Radars (assuming \$25k each). Assume networking for Wild Sage Nodes is provided by LTE broadband; Sage Blades are hard wired to the non-metered and zero cost Internet infrastructure.
 
 Sensors: \$3,500 (MetOne) \* 20  + \$25,000 (micropulse radar) \* 2 = \$120,000
 
-WSN: (\$9,500 (node) + \$300 (Broadband LTE Modem)) \* 10 = \$98,000
+WSN: (\$10,100 (node) + \$300 (Broadband LTE Modem)) \* 10 = \$104,000
 
 Sage Blade: \$6,500 \* 10 = \$65,000
 
-Beehive Cloud Service: \$8,300 \* 20 = \$166,000
+Beehive Cloud Service: \$10,900 \* 20 = \$218,000
 
-Broadband Networking Data Plan: \$480/yr \* 10 = \$4,800
+Broadband Networking Data Plan for WSNs: \$480/yr \* 10 = \$4,800
 
-So the total for the first year would be: \$453,800 (equipment plus Beehive and broadband).
+So the total for the first year would be: \$511,800 (equipment plus Beehive and broadband).
 
-Additional years would be \$170,800 (Beehive and broadband cost)
+Additional years would be \$218,000 (Beehive and broadband cost)
 
-For a 3 year NSF grant, the total charged to the project for a 20 node deployment with Sage nodes and the sensors described above: \$792,400.
+For a 3 year NSF grant, the total charged to the project for a 20 node deployment with Sage nodes and the sensors described above: \$837,400.
 
 Not included in this worksheet of pricing:
 
