@@ -85,7 +85,7 @@ Sensors (at deployment site)</td>
 <tr>
 <td>Sensor</td>
 <td>Features</td>
-<td>Cost</td>
+<td>Sensor Cost</td>
 </tr>
 <tr>
 <td><a
@@ -197,7 +197,7 @@ price</td>
 <td>Integrated sensing capabilities for
 Wild Sage Node</td>
 <td>GPS, Rainfall Sensor> (<a href="https://rainsensors.com/products/rg-15">rg-15</a>), microphone,
-gas,pressure, humidity and temperature sensors (<a
+atmospheric pressure and humidity, temperature sensors (<a
 href="https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/">bme 680</a>)</td>
 <td>Included in WSN
 price</td>
