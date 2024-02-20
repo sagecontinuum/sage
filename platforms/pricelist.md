@@ -126,14 +126,6 @@ on PT mount</td>
 </tr>
 <tr>
 <td><a
-href="https://metek.de/product/usonic-3-class-a/">METEK uSonic-3 3D Ultrasonic Anemometer</a> </td>
-<td>Provides observations of three
-wind components (U, V, W) and acoustic temperature at a sampling rate of
-up to 50 Hz, with heater for cold weather.</td>
-<td>~$11,000</td>
-</tr>
-<tr>
-<td><a
 href="https://metek.de/product/mrr-pro/">Micro Rain Radar MMR-PRO</a></td>
 <td>Vertically pointing Ka-band Radar
 that detects precipitation in a vertical column.</td>
@@ -154,8 +146,28 @@ href="https://halo-photonics.com/lidar-systems/stream-line-series/">Halo Streaml
 resolution, high output power – a range of ~10km.</td>
 <td>~$250,000</td>
 </tr>
+<tr>
+<td><a href="https://www.licor.com/env/products/eddy-covariance/LI-7500DS.html">LI-COR 7500DS + Accessories</a></td>
+<td>Open Path CO2/H2O Analyzer designed for high-speed measurements in ambient air for eddy covariance computations along with 3D sonic anemometer.</td>
+<td>~$24000</td>
+</tr>
+<tr>
+<td><a
+href="https://metek.de/product/usonic-3-class-a/">METEK uSonic-3 3D Ultrasonic Anemometer</a> </td>
+<td>Provides observations of three
+wind components (U, V, W) and acoustic temperature at a sampling rate of
+up to 50 Hz, with heater for cold weather.</td>
+<td>~$11,000</td>
+</tr>
+<tr> 
+<td><a href="https://gillinstruments.com/wp-content/uploads/2022/08/WindMaster-Pro-iss-8.pdf">Gill WindMaster Pro 3D Ultrasonic Anemometer</a></td>
+<td> Monitors wind speeds of 0-65m/s and provides
+sonic temperature, speed of sound and U, V & W vector outputs at 32Hz.</td>
+<td>~$4000</td>
+</tr>
 </tbody>
 </table>
+
 
 For Wild Sage Nodes, some optional components
 must be integrated at the time the nodes are assembled and tested
