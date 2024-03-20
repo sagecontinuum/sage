@@ -1,4 +1,4 @@
-# Purchasing and Deploying Sage Nodes
+# Purchasing and Deploying Sage Nodes for NSF-Sponsored Projects
 
 To deploy your own Sage system, four parts are
 needed:
