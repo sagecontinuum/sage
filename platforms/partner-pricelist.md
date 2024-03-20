@@ -1,4 +1,4 @@
-# Purchasing and Deploying Sage Nodes for NSF-Sponsored Projects
+# Purchasing and Deploying Sage Nodes for Research Parnters
 
 To deploy your own Sage system, four parts are
 needed:
@@ -272,27 +272,27 @@ management operations and configuration changes are often shared across a given 
 </tr>
 <tr class="even c25">
 <td class="c23">1</td>
-<td class="c17">$16.0K</td>
+<td class="c17">$32.0K</td>
 </tr>
 <tr class="odd c41">
 <td class="c23">5</td>
-<td class="c17">$16.0K</td>
+<td class="c17">$32.0K</td>
 </tr>
 <tr class="even c25">
 <td class="c23">10</td>
-<td class="c17">$12.5K</td>
+<td class="c17">$25.0K</td>
 </tr>
 <tr class="odd c25">
 <td class="c23">20</td>
-<td class="c17">$10.9K</td>
+<td class="c17">$21.8K</td>
 </tr>
 <tr class="even c25">
 <td class="c23">30</td>
-<td class="c17">$10.1K</td>
+<td class="c17">$20.1K</td>
 </tr>
 <tr class="odd c25">
 <td class="c23">50</td>
-<td class="c17">$9.4K</td>
+<td class="c17">$18.8K</td>
 </tr>
 </tbody>
 </table>
@@ -318,13 +318,13 @@ Sensors: \$10,000 (Mobotix)
 
 WSN: \$10,100 (node) + \$300 (Broadband LTE Modem) = \$10,400
 
-Beehive Cloud Service: \$16,000/yr
+Beehive Cloud Service: \$32,000/yr
 
 Broadband Networking Data Plan for WSNs: \$480/yr
 
-So the total for the first year would be: \$36,880 (equipment purchase + Beehive and broadband)
+So the total for the first year would be: \$52,880 (equipment purchase + Beehive and broadband)
 
-Additional years would be \$16,480 (Beehive and broadband cost)
+Additional years would be \$32,480 (Beehive and broadband cost)
 
 **Example B**:  A 20 node deployment: 10 WSN and 10 Sage Blades, each with an Air Quality sensor. Also, there are two Micropulse Radars (assuming \$25k each). Assume networking for Wild Sage Nodes is provided by LTE broadband; Sage Blades are hard wired to the non-metered and zero cost Internet infrastructure.
 
@@ -334,15 +334,15 @@ WSN: (\$10,100 (node) + \$300 (Broadband LTE Modem)) \* 10 = \$104,000
 
 Sage Blade: \$6,500 \* 10 = \$65,000
 
-Beehive Cloud Service: \$10,900 \* 20 = \$218,000
+Beehive Cloud Service: \$21,800 \* 20 = \$463,000
 
 Broadband Networking Data Plan for WSNs: \$480/yr \* 10 = \$4,800
 
-So the total for the first year would be: \$511,800 (equipment plus Beehive and broadband).
+So the total for the first year would be: \$756,800 (equipment plus Beehive and broadband).
 
-Additional years would be \$218,000 (Beehive and broadband cost)
+Additional years would be \$468,800 (Beehive and broadband cost)
 
-For a 3 year NSF grant, the total charged to the project for a 20 node deployment with Sage nodes and the sensors described above: \$837,400.
+For a 3 year project, the total for a 20 node deployment with Sage nodes and the sensors described above: \$1,694,400.
 
 Not included in this worksheet of pricing:
 
