@@ -266,8 +266,7 @@ management operations and configuration changes are often shared across a given 
 </colgroup>
 <tbody>
 <tr class="odd c25">
-<td class="c23">Deployment size
-(nodes)        </td>
+<td class="c23"> Nodes </td>
 <td class="c17">2024 Cost/year/node</td>
 </tr>
 <tr class="even c25">
