@@ -271,27 +271,27 @@ management operations and configuration changes are often shared across a given 
 <td class="c17">2024 Cost/year/node</td>
 </tr>
 <tr class="even c25">
-<td class="c23">1</td>
+<td class="c23">1 - 4</td>
 <td class="c17">$32.0K</td>
 </tr>
 <tr class="odd c41">
-<td class="c23">5</td>
+<td class="c23">5 - 9</td>
 <td class="c17">$29.0K</td>
 </tr>
 <tr class="even c25">
-<td class="c23">10</td>
+<td class="c23">10 - 19</td>
 <td class="c17">$25.0K</td>
 </tr>
 <tr class="odd c25">
-<td class="c23">20</td>
+<td class="c23">20 - 29</td>
 <td class="c17">$21.8K</td>
 </tr>
 <tr class="even c25">
-<td class="c23">30</td>
+<td class="c23">30 - 49</td>
 <td class="c17">$20.1K</td>
 </tr>
 <tr class="odd c25">
-<td class="c23">50</td>
+<td class="c23">50 and above</td>
 <td class="c17">$18.8K</td>
 </tr>
 </tbody>
