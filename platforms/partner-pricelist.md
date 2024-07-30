@@ -276,7 +276,7 @@ management operations and configuration changes are often shared across a given 
 </tr>
 <tr class="odd c41">
 <td class="c23">5</td>
-<td class="c17">$32.0K</td>
+<td class="c17">$29.0K</td>
 </tr>
 <tr class="even c25">
 <td class="c23">10</td>
