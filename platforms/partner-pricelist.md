@@ -1,4 +1,4 @@
-# Purchasing and Deploying Sage Nodes for Research Parnters
+# Purchasing and Deploying Sage Nodes for Research Partners
 
 To deploy your own Sage system, four parts are
 needed:
