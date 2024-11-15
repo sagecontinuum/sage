@@ -101,7 +101,7 @@ href="https://www.vaisala.com/en/products/weather-environmental-sensors/air-qual
 <td>Provides observations on
 meteorological conditions, including particulate matter (PM2.5, PM10)
 and gas species concentrations (NO, NO2, O3, CO).</td>
-<td>$3,500</td>
+<td>$8000</td>
 </tr>
 <tr>
 <td><a
