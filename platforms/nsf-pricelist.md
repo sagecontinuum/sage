@@ -165,6 +165,17 @@ up to 50 Hz, with heater for cold weather.</td>
 sonic temperature, speed of sound and U, V & W vector outputs at 32Hz.</td>
 <td>~$4000</td>
 </tr>
+<tr> 
+<td><a href="https://www.ysi.com/exo">YSI EXO Sonde with 6 water quality sensors</a></td>
+<td>Multiparameter Water Quality Sonde with 7 sensor ports (including a central wiper port), optional depth sensor, and battery compartment.</td>
+<td>~$19,000</td>
+</tr>
+
+<td><a href="https://www.ysi.com/sontek-sl-series">SonTek-SL Acoustic Doppler Current Profiler</a></td>
+<td>Doppler-based water velocity and level measurement system with adaptive acoustics, velocity profiling up to 128 cells (3G models), and an acoustic-pressure duo water level sensor.</td>
+<td>~$14,000</td>
+</tr>
+
 </tbody>
 </table>
 
